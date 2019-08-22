@@ -3,12 +3,12 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-{#        {% crispy form %}#}
+    {#        {% crispy form %}#}
     <div class="card bg-light text-dark">
         <div class="card-body">
             <form method="post" novalidate>
                 {% csrf_token %}
-{#                {{ form|crispy }}#}
+                {#                {{ form|crispy }}#}
 
                 <div class="row">
                     <div class="col-6">
@@ -26,6 +26,8 @@
                         {{ form.email|as_crispy_field }}
                     </div>
                     <div class="col-4">
+{#                        <img src="{{ form.image.url }}" class="rounded" alt="Descripción de la imagen" width="50"#}
+{#                             height="40">#}
                         {{ form.image|as_crispy_field }}
                     </div>
                 </div>
