@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+{% block title %}List-projects{% endblock %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="container">
+        <div class="card-deck mb-3 text-center">
+            {% for project in projects %}
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">{{ project.name }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>{{ project.address }}</p>
+                        <button type="button" class="btn btn-xsm btn-block btn-outline-primary ">
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            Ver
+                        </button>
+                    </div>
+                </div>
+
+            {% empty %}
+                <tr class="table-active">
+                    <td colspan="3">No existe proyectos registrados!!!</td>
+                </tr>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock content %}
