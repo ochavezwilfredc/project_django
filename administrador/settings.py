@@ -40,13 +40,15 @@ DJANGO_APPS = [
 THIRD_PARTY_APPS = [
     'bootstrap4',
     'fontawesome_5',
-    'crispy_forms', ]
+    'crispy_forms',
+    'ckeditor',
+]
 
 LOCAL_APPS = [
     'apps.core',
     'apps.client.apps.ClientConfig',
     'apps.project.apps.ProjectConfig',
-    'apps.task.apps.TaskConfig',
+    'apps.homework.apps.HomeworkConfig',
 
 ]
 
@@ -138,3 +140,16 @@ STATIC_URL = '/static/'
 # media files
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+# Ckeditor
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-',
+             'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Link', 'Unlink']
+        ]
+    }
+}

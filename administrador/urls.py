@@ -21,17 +21,20 @@ urlpatterns = [
     # Paths del core
     path('', include('apps.core.urls')),
 
-    # Paths de task
+    # Paths de homework
     path('clients/', include('apps.client.urls')),
 
     # Paths de project
     path('projects/', include('apps.project.urls')),
 
-    # Paths de task
-    path('tasks/', include('apps.task.urls')),
+    # Paths de homework
+    path('tasks/', include('apps.homework.urls')),
 
     path('admin/', admin.site.urls),
 ]
+
+admin.site.site_title = "INCOTECH"
+admin.site.site_header = "INCOTECH ADMIN"
 
 if settings.DEBUG:
     from django.conf.urls.static import static
