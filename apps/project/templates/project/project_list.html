@@ -3,21 +3,23 @@
 {% load crispy_forms_tags %}
 {% block content %}
     <div class="container">
-        <div class="card-deck mb-3 text-center">
+        <div class="row">
+
             {% for project in projects %}
-                <div class="card mb-3 shadow-sm">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">{{ project.name }}</h4>
-                    </div>
-                    <div class="card-body">
-                        <p>{{ project.address }}</p>
-                        <button type="button" class="btn btn-xsm btn-block btn-outline-primary ">
-                            <i class="fa fa-eye" aria-hidden="true"></i>
-                            Ver
-                        </button>
+                <div class="col-3">
+                    <div class="card-deck mb-3">
+                        <div class="card bg-light mb-3 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ project.name }}</h5>
+                                <p class="card-text">{{ project.address }}</p>
+                                <a href="#" class="card-link text-blue"><i class="fas fa-link"></i> Ver más</a>
+                                <p class="card-text">
+                                    <small class="text-muted">Ultima actualización {{ project.updated }}</small>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             {% empty %}
                 <tr class="table-active">
                     <td colspan="3">No existe proyectos registrados!!!</td>

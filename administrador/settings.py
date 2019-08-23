@@ -39,13 +39,15 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS = [
     'bootstrap4',
-    'fontawesome',
+    'fontawesome_5',
     'crispy_forms', ]
 
 LOCAL_APPS = [
     'apps.core',
     'apps.client.apps.ClientConfig',
     'apps.project.apps.ProjectConfig',
+    'apps.task.apps.TaskConfig',
+
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -120,7 +122,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Lima'
 
 USE_I18N = True
 

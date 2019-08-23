@@ -5,6 +5,7 @@ from .models import Project
 
 class ProjectAdmin(admin.ModelAdmin):
     readonly_fields = ('created', 'updated')
+    list_display = ('name', 'address')
 
 
 # Register your models here.

@@ -1,0 +1,40 @@
+{% extends 'core/base.html' %}
+{% block title %}List-tasks{% endblock %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+
+            {% for task in tasks %}
+                <div class="col-3">
+                    <div class="card-deck mb-3">
+                        <div class="card text-white bg-dark shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ task.name }}</h5>
+                                <p class="card-text">Responsable: <b>{{ task.responsible }}</b></p>
+                                <p class="card-text">Prioridad: <b>{{ task.priority }}</b></p>
+                                <p class="card-text">Tiempo estimado: <b>{{ task.estimated_time }}</b></p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                         style="width: {{ task.state }}%" aria-valuemin="0"
+                                         aria-valuemax="100">
+                                    </div>
+                                </div>
+                                <br/>
+                                <a href="#" class="card-link text-warning"><i class="fas fa-link"></i> Ver más</a>
+                                <p class="card-text">
+                                    <small class="text-muted">Ultima actualización {{ task.updated }}</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% empty %}
+                <tr class="table-active">
+                    <td colspan="3">No existe tareas registradas!!!</td>
+                </tr>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock content %}
