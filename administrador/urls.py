@@ -21,14 +21,14 @@ urlpatterns = [
     # Paths del core
     path('', include('apps.core.urls')),
 
-    # Paths de homework
+    # Paths de task
     path('clients/', include('apps.client.urls')),
 
     # Paths de project
-    path('projects/', include('apps.project.urls')),
+    # path('projects/', include('apps.project.urls')),
 
-    # Paths de homework
-    path('tasks/', include('apps.homework.urls')),
+    # Paths de task
+    path('tasks/', include('apps.task.urls')),
 
     path('admin/', admin.site.urls),
 ]

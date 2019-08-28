@@ -4,7 +4,7 @@ from apps.client.views import ClientListView, ClientCreateView, ClientUpdateView
 
 urlpatterns = [
     path('', ClientListView.as_view(), name="client_list"),
-    path('homework-new/', ClientCreateView.as_view(), name="client_new"),
-    path('<int:pk>/homework-update/', ClientUpdateView.as_view(), name="client_update"),
-    # path('<int:pk>/homework-delete/', ClientDeleteView.as_view(), name="client_delete"),
+    path('task-new/', ClientCreateView.as_view(), name="client_new"),
+    path('<int:pk>/task-update/', ClientUpdateView.as_view(), name="client_update"),
+    # path('<int:pk>/task-delete/', ClientDeleteView.as_view(), name="client_delete"),
 ]
