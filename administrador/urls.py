@@ -24,9 +24,6 @@ urlpatterns = [
     # Paths de task
     path('clients/', include('apps.client.urls')),
 
-    # Paths de project
-    # path('projects/', include('apps.project.urls')),
-
     # Paths de task
     path('tasks/', include('apps.task.urls')),
 

@@ -57,9 +57,8 @@ class Task(models.Model):
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de edición")
 
-    # @priority
-    # def get_activities_finished(self):
-    #     pass
+    def get_activities_news(self):
+        return list(filter(lambda act: act.state == 'a', self.activities.all()))
 
     @property
     def get_state_color(self):
@@ -71,6 +70,7 @@ class Task(models.Model):
             return 'bg-success'
 
     def get_state(self):
+        # print(self.get_activities_finished)
         total = len(list(filter(lambda act: act.state == 'c', self.activities.all())))
         return round(((total / self.activities.count()) * 100), 2)
 

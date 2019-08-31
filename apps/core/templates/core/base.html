@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!doctype html>
 <html lang="es">
 <head>
@@ -5,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    {#    <link rel="icon" href="favicon.ico">#}
     <title>{% block title %}{% endblock %} | Incotech</title>
-
+{#    <link rel="stylesheet" href='{% static "css/base.css" %}'>#}
     <!-- Estilos y fuentes del template  -->
-    {% load static %}
+{#    {% load static %}#}
 
     {# Cargamos la librería #}
     {% load bootstrap4 %}
@@ -24,7 +25,7 @@
     <!--    Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
-    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <!-- Custom styles for this template -->
 </head>
 <body>
