@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c6bb164-c7bf-4e8c-b328-549944cae84e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Incotech_admin/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Incotech_admin/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Incotech_admin/.idea/administrador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Incotech_admin/.idea/administrador.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Incotech_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Incotech_admin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Incotech_admin/administrador/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Incotech_admin/administrador/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Incotech_admin/administrador/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Incotech_admin/administrador/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Incotech_admin/administrador/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Incotech_admin/administrador/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Incotech_admin/apps/task/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Incotech_admin/apps/task/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Incotech_admin/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Incotech_admin/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +90,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Incotech_admin/administrador/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Incotech_admin/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,20 +108,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Incotech_admin/docker-compose.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Incotech_admin/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="224">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Incotech_admin/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/../Incotech_admin/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="144">
+              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -198,8 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/templates/core/base.html" />
-        <option value="$PROJECT_DIR$/core/views.py" />
         <option value="$PROJECT_DIR$/apps/client/template/client/client.html" />
         <option value="$PROJECT_DIR$/apps/core/models.py" />
         <option value="$PROJECT_DIR$/apps/client/client_form.html" />
@@ -249,6 +249,8 @@
         <option value="$PROJECT_DIR$/administrador/settings.py" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/../Incotech_admin/requirements.txt" />
+        <option value="$PROJECT_DIR$/../Incotech_admin/administrador/settings.py" />
       </list>
     </option>
   </component>
@@ -273,6 +275,11 @@
             <path>
               <item name="administrador" type="b2602c69:ProjectViewProjectNode" />
               <item name="Incotech_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="administrador" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Incotech_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="administrador" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -371,16 +378,15 @@
       <workItem from="1567278987661" duration="871000" />
       <workItem from="1567280578852" duration="5048000" />
       <workItem from="1567476121193" duration="1322000" />
-      <workItem from="1567528475056" duration="2112000" />
+      <workItem from="1567528475056" duration="3193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166091000" />
+    <option name="totallyTimeSpent" value="167172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -673,24 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Incotech_admin/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Incotech_admin/apps/core/templates/core/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="9" column="53" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Incotech_admin/administrador/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -711,6 +703,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Incotech_admin/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Incotech_admin/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -718,10 +717,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Incotech_admin/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/../Incotech_admin/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="224">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Incotech_admin/administrador/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,6 @@ django-datatables-view==1.18.0
 django-extensions==2.2.1
 django-fontawesome-5==1.0.16
 django-js-asset==1.2.2
-django-suit==2.0a1
 idna==2.8
 isort==4.3.21
 lazy-object-proxy==1.4.2
