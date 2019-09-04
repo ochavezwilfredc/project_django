@@ -93,11 +93,10 @@ WSGI_APPLICATION = 'administrador.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbadmin',
-        'USER': 'odoo',
-        'PASSWORD': 'odoo',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'HOST': 'db',
+        'PORT': 5432,
     }
 }
 
