@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c6bb164-c7bf-4e8c-b328-549944cae84e" name="Default Changelist" comment="" />
+    <list default="true" id="6c6bb164-c7bf-4e8c-b328-549944cae84e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Incotech_admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Incotech_admin/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Incotech_admin/administrador/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+            <state relative-caret-position="117">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -188,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/client/template/client/client.html" />
         <option value="$PROJECT_DIR$/apps/core/models.py" />
         <option value="$PROJECT_DIR$/apps/client/client_form.html" />
         <option value="$PROJECT_DIR$/apps/client/template/client/client_form.html" />
@@ -239,6 +240,7 @@
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/../Incotech_admin/requirements.txt" />
         <option value="$PROJECT_DIR$/../Incotech_admin/administrador/settings.py" />
+        <option value="$PROJECT_DIR$/../Incotech_admin/.gitignore" />
       </list>
     </option>
   </component>
@@ -366,17 +368,18 @@
       <workItem from="1567278987661" duration="871000" />
       <workItem from="1567280578852" duration="5048000" />
       <workItem from="1567476121193" duration="1322000" />
-      <workItem from="1567528475056" duration="4299000" />
+      <workItem from="1567528475056" duration="4972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168278000" />
+    <option name="totallyTimeSpent" value="168951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255673" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Database Console" order="0" visible="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -433,13 +436,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Incotech_admin/apps/client/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/task/templates/task/client_form.html" />
     <entry file="file://$USER_HOME$/anaconda3/envs/administrador/lib/python3.7/site-packages/django/db/migrations/operations/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,10 +708,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Incotech_admin/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Incotech_admin/administrador/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+        <state relative-caret-position="117">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
