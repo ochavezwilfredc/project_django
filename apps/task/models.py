@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 
 class Project(models.Model):
     name = models.CharField(max_length=100, verbose_name="Nombre")
-    address = RichTextField(blank=True, verbose_name="Dirección")
+    address = RichTextField(blank=True, verbose_name="Descripción")
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de edición")
 

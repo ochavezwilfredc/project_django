@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 DJANGO_APPS = [
-    # 'suit',
+    'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -71,7 +71,8 @@ ROOT_URLCONF = 'administrador.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        # 'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -87,7 +88,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'administrador.wsgi.application'
 
 # Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
+# https://docs.djangoprojpip uninstall django-suitect.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -157,4 +158,11 @@ CKEDITOR_CONFIGS = {
             ['Link', 'Unlink']
         ]
     }
+}
+
+# Django Suite
+SUIT_CONFIG = {
+    'ADMIN_NAME': 'INCOTECH ADMIN',
+    'SHOW_REQUIRED_ASTERISK': True,
+    'CONFIRM_UNSAVED_CHANGES': True
 }
